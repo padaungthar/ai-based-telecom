@@ -1,6 +1,6 @@
 # Mini-Project: AI-Based Signal Strength Prediction for FWA CPE Placement
 ## Goal:
-Build a simple machine learning model that predicts signal strength (RSSI or SINR) based on environmental features to suggest optimal placement for a CPE device.
+Build a simple machine learning model that predicts signal strength (RSSI or SINR) based on environmental features to ***suggest optimal placement*** for a CPE device.
 
 ## Step-by-Step Plan
 ### Step 1: Collect or Simulate Data
@@ -27,19 +27,19 @@ Use Python with libraries like pandas, scikit-learn, and matplotlib.
 
   - Train a regression model:
   
-    > Random Forest Regressor
+    > **Random Forest Regressor**
 
-    > Gradient Boosting Regressor
+    > **Gradient Boosting Regressor**
 
-    > Optional: try a small Neural Network using TensorFlow/Keras
+    > Optional: try a small Neural Network using **TensorFlow/Keras**
 
-  - Evaluate with R² Score, MAE, etc.
+  - Evaluate with **R² Score, MAE,** etc.
 
 ### Step 3: Visualize Predictions
 
 Create a heatmap or 2D grid showing signal strength predictions for different locations in a home or neighborhood.
 
-  - Use matplotlib or seaborn for plotting.
+  - Use **matplotlib** or **seaborn** for plotting.
   - Simulate different scenarios (e.g., window vs. rooftop placement).
 
 ### Step 4: Build a Simple Recommendation System
@@ -56,3 +56,10 @@ Let the user input:
 - pandas / numpy
 - matplotlib / seaborn
 - Optional: TensorFlow or PyTorch (for deeper models)
+
+## Contact Me
+
+Email to thtiketin@gmail.com
+LinkedIn - https://www.linkedin.com/in/thanhtike/
+
+
