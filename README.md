@@ -2,52 +2,22 @@
 ## Goal:
 Build a simple machine learning model that predicts signal strength (RSSI or SINR) based on environmental features to ***suggest optimal placement*** for a CPE device.
 
-## Step-by-Step Plan
-### Step 1: Collect or Simulate Data
+##🧠 Step-by-Step Process
+  1. **Install & Import Libraries** – pandas, scikit-learn, matplotlib, and more.
+  2. **Load Dataset** – Imported a sample dataset from GitHub representing FWA conditions.
+  3. **Explore the Data** – Checked distributions, datatypes, and cleaned inconsistencies.
+  4. **Preprocess Features** – One-hot encoded categorical variables and scaled numeric ones.
+  5. **Train/Test Split** – Split the data for model validation.
+  6. **Train Model** – Used a Random Forest Regressor for prediction.
+  7. **Prediction Example** – Predicted signal strength based on specific input conditions.
+  8. **Visualize as Heatmap** – Created a heatmap of predicted signal strength by distance & elevation.
+  9. **Interactive Sliders** – Built an interactive UI with ipywidgets to simulate real-world placement scenarios.
 
-You’ll need a dataset with features like:
-
-  > Distance from tower (in meters)
-
-  > Line-of-sight (boolean)
-
-  > Obstruction types (e.g., wall, glass, tree)
-
-  > Elevation
-
-  > Device height (e.g., rooftop or window level)
-
-  > Signal strength (RSSI or SINR) — target variable
-
-### Step 2: Build the ML Model
-
-Use Python with libraries like pandas, scikit-learn, and matplotlib.
-
-  - Preprocess data (normalize, encode categories).
-
-  - Train a regression model:
-  
-    > **Random Forest Regressor**
-
-    > **Gradient Boosting Regressor**
-
-    > Optional: try a small Neural Network using **TensorFlow/Keras**
-
-  - Evaluate with **R² Score, MAE,** etc.
-
-### Step 3: Visualize Predictions
-
-Create a heatmap or 2D grid showing signal strength predictions for different locations in a home or neighborhood.
-
-  - Use **matplotlib** or **seaborn** for plotting.
-  - Simulate different scenarios (e.g., window vs. rooftop placement).
-
-### Step 4: Build a Simple Recommendation System
-
-Let the user input:
-  - Their location relative to the tower
-  - Obstruction type
-  - Device placement height
+##💡 Key Takeaways
+✅ Built an ML model with MAE ~1.98 dB and R² ~0.989
+✅ Visualized optimal placement regions via signal strength heatmaps
+✅ Added an interactive dashboard to simulate deployment conditions
+✅ A great step toward AI-assisted network planning in telecom
 
 ## Tools You'll Use
 
@@ -60,6 +30,7 @@ Let the user input:
 ## Contact Me
 
 Email to thtiketin@gmail.com
+
 LinkedIn - https://www.linkedin.com/in/thanhtike/
 
 
